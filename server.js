@@ -34,8 +34,8 @@ app.options('*', cors({
 }));
 /*
 git init
-git add README.md
-git commit -m "first"
+git add .
+git commit -m "first1"
 git branch -M main
 git remote add origin https://github.com/ToqaMohamedDev/serverecomer.git
 git push -u origin main
