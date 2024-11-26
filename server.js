@@ -23,13 +23,13 @@ const app = express();
 // Enable other domains to access your application
 app.use(cookieParcer());
 app.use(cors({
-  origin: ['https://ecommerce-b9ce.vercel.app','http://localhost:3000'], // Frontend URL
+  origin: ['https://serverecomerce.vercel.app','http://localhost:3000'], // Frontend URL
   credentials: true, // Allow cookies to be sent
 }));
 
 // Handle preflight requests specifically
 app.options('*', cors({
-  origin: ['https://ecommerce-b9ce.vercel.app','http://localhost:3000'], // Frontend URL
+  origin: ['https://serverecomerce.vercel.app','http://localhost:3000'], // Frontend URL
   credentials: true
 }));
 /*
